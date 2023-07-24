@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- aos-link -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- google font inter -->
+    <!-- Add the Inter font from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
     <link href="output.css" rel="stylesheet" />
   </head>
-  <body class="box-border">
+  <body class="box-border font-sanss">
     <div class="">
       <!-- HEADER SECTIONS -->
       <div class="p-5 bg-customOrange over">
@@ -70,17 +77,13 @@
               </div>
 
               <div
-                class="grid gap-4"
+                class="grid gap-5"
                 data-aos-duration="3000"
                 data-aos="fade-right"
               >
                 <!-- instagram -->
-                <div class="flex items-center gap-3">
-                  <img
-                    class="w-10"
-                    src="./svg/instagram.svg"
-                    alt="instagram"
-                  />
+                <div class="flex items-center gap-5">
+                  <img class="w-10" src="./svg/instagram.svg" alt="instagram" />
                   <div>
                     <h2 class="font-bold underline">
                       <a href="">Instagram</a>
@@ -91,7 +94,7 @@
                   </div>
                 </div>
                 <!-- twitters -->
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-5">
                   <img class="w-10" src="./svg/Icon.svg" alt="twitter" />
                   <div>
                     <h2 class="font-bold underline"><a href="">Twitter</a></h2>
@@ -101,7 +104,7 @@
                   </div>
                 </div>
                 <!-- linkedin -->
-                <div class="flex items-center gap-3">
+                <div class="flex items-center gap-5">
                   <img class="w-10" src="./svg/Vector.svg" alt="linkedin" />
                   <div>
                     <h2 class="font-bold underline"><a href="">Linkedin</a></h2>
@@ -114,46 +117,50 @@
             </div>
 
             <!-- second grid -->
-            <div class="pt-3 pb-5">
+            <div class="pt-8 pb-5">
               <div>
-              <h2 class="font-extrabold text-2xl">File Info</h2>
-              <div>
-                <!-- instagram -->
-                <div class="flex items-center gap-3">
-                  <img
-                    class="w-10"
-                    src="./svg/instagram.svg"
-                    alt="instagram"
-                  />
-                  <div>
-                    <h2 class="font-bold underline">
-                      <a href="">Instagram</a>
-                    </h2>
-                    <p class="text-xs">
-                      Join our Instagram page, We share UI/UX Design tips.
-                    </p>
+                <h2 class="font-extrabold text-2xl mb-4">File Info</h2>
+                <div class="grid gap-5">
+                  <!--figma logo -->
+                  <div class="flex items-center gap-5">
+                    <img class="w-10" src="./svg/figma.png" alt="figma" />
+                    <div>
+                      <h2 class="font-semibold">
+                        Figma File for <span>FREE</span>
+                      </h2>
+
+                      <p class="text-sm">
+                        It is free to use for personal and commercial purposes.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <!-- twitters -->
-                <div class="flex items-center gap-3">
-                  <img class="w-10" src="./svg/Icon.svg" alt="twitter" />
-                  <div>
-                    <h2 class="font-bold underline"><a href="">Twitter</a></h2>
-                    <p class="text-xs">
-                      Join our Twitter page, We share UI/UX Design tips.
-                    </p>
+                  <!--web-flow logo-->
+                  <div class="flex items-center gap-5">
+                    <img
+                      class="w-10"
+                      src="./svg/Logowebflow.svg"
+                      alt="Webflow"
+                    />
+                    <div>
+                      <h2 class="font-bold">Webflow</h2>
+                      <p class="text-xs">
+                        Join our Twitter page, We share UI/UX Design tips.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                
+
+                  <div class="bg-btnColor text-center p-1 rounded-lg">
+                    <a href="http://" class="text-white font-bold"
+                      >Get Template $49 USD</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
         </div>
       </div>
     </div>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
