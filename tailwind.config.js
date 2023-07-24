@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  purge: ['./dist/*.{html,js}'], // Specify the files to be analyzed for purging unused CSS classes
   theme: {
     extend: {
       colors: {
